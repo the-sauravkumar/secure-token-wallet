@@ -78,3 +78,6 @@ dfx canister call unit_tests test
 ## Notes
 - Deployment steps may vary based on specific project configuration
 - Always refer to the most recent project documentation
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
