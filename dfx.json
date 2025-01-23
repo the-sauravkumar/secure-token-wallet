@@ -1,15 +1,13 @@
 {
   "canisters": {
-    "secure_token_wallet_backend": {
-      "main": "src/secure_token_wallet_backend/main.mo",
-      "type": "motoko"
-    }
+    "token_manager": { "main": "src/token_manager.mo", "type": "motoko" },
+    "wallet_security": { "main": "src/wallet_security.mo", "type": "motoko" },
+    "unit_tests": { "main": "tests/unit_tests.mo", "type": "motoko" },
+    "mock_ledger": { "main": "src/mock_ledger.mo", "type": "motoko" },
+    "generate_principal": { "main": "generate_principal.mo", "type": "motoko" }
   },
   "defaults": {
-    "build": {
-      "args": "",
-      "packtool": ""
-    }
+    "build": { "args": "", "packtool": "" }
   },
   "output_env_file": ".env",
   "version": 1
